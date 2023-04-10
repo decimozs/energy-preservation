@@ -1,8 +1,11 @@
 import React from 'react'
+import { Header } from '../shared'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <section>
+      <Header/>
+    </section>
   )
 }
 
