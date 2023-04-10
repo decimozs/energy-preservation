@@ -9,7 +9,7 @@ interface LayoutProps {
 
 const Layout: React.FC <LayoutProps> = ({children}) => {
   return (
-    <main className='' id={font.className}>
+    <main className='p-[1rem] w-full h-full m-auto text-[1rem]' id={font.className}>
         {children}
     </main>
   )
