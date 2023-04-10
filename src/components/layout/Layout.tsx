@@ -1,4 +1,7 @@
 import React from 'react'
+import { Archivo } from 'next/font/google'
+
+const font = Archivo ({ subsets : ['latin'] })
 
 interface LayoutProps {
     children : React.ReactNode
@@ -6,7 +9,7 @@ interface LayoutProps {
 
 const Layout: React.FC <LayoutProps> = ({children}) => {
   return (
-    <main>
+    <main className='' id={font.className}>
         {children}
     </main>
   )
