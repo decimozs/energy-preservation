@@ -3,7 +3,7 @@ import { p1 } from '../../../public/images'
 import Picture from '../shared/Picture'
 import { Section } from '../shared'
 
-const Section1 = () => {
+const Section1: React.FC = () => {
   return (
     <Section layers='01' title='3RS of Sustainability' image={p1} alt="p1-img" headerStyles='xl:mr-[21rem] 2xl:mr-[37rem]' layersStyles='text-[5rem]'>
       <div className='flex flex-col gap-2'>

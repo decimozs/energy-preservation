@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Section3 = () => {
+const Section3: React.FC = () => {
   return (
     <div></div>
   )
