@@ -20,7 +20,7 @@ const Section: React.FC <SectionProps> = ({title, image, alt, classname, childre
   return (
     <section className={`${classname} flex flex-col w-full`}>
       <div className='mt-auto flex flex-col items-end'>
-      <span className={`${layersStyles} z-10 my-[2rem] font-light text-[6rem] mr-auto lg:absolute lg:left-[20rem] lg:t-0`}>{layers}</span>
+      <span className={`${layersStyles} z-10 my-[2rem] font-light text-[6rem] mr-auto lg:absolute lg:left-[20rem] lg:t-0 xl:mt-[5rem] xl:left-[17rem] 2xl:mt-0 2xl:left-[20rem]`}>{layers}</span>
         <div className={`${headerFont.className}  ${headerStyles}`}>
             <p className='font-bold text-[2rem] text-right xl:text-[4rem]'>{title}</p>
         </div>
