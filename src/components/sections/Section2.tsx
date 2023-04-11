@@ -4,11 +4,11 @@ import { p2 } from '../../../public/images'
 
 const Section2: React.FC = () => {
   return (
-    <Section layers='02' title='Conserve Energy' image={p2} alt='p2-img' classname='mt-[5rem]'>
+    <Section layers='02' title='Conserve Energy' image={p2} alt='p2-img' classname='mt-[5rem]' headerStyles='xl:mr-[28rem] 2xl:mr-[44rem]'>
       <div className='flex flex-col gap-2 xl:flex-row xl:gap-2'>
-        <p className='xl:w-[335px] xl:font-medium xl:text-[2.3rem] 2xl:w-[580px]'>Because it lessens our impact on the environment and lessens the consequences of climate change, energy conservation is a crucial component of environmental preservation.</p>
+        <p className='xl:w-[335px] xl:mt-[2.5rem] xl:font-light xl:text-[2.3rem] 2xl:w-[580px]'>Because it <span className='font-medium'>lessens our impact on the environment</span> and lessens the consequences of climate change, energy conservation is a crucial component of environmental preservation.</p>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 2xl:mt-[3rem]'>
           <div className='flex flex-col gap-2 xl:flex-row'>
           <p className='xl:w-[300px] xl:mt-[3rem] 2xl:mt-[0]'><span className='font-bold'>Reducing greenhouse gas emissions</span>: When burned, many energy sources, including coal, oil, and natural gas, generate greenhouse gases that contribute to climate change and global warming. We can minimize the amount of greenhouse gases we produce and limit the rate of climate change by conserving energy and using it more effectively.</p>
 
