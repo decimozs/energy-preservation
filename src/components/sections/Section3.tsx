@@ -12,7 +12,8 @@ const Section3: React.FC = () => {
 
         <p className='xl:w-[300px] xl:mt-[2.6rem] xl:ml-[11rem] 2xl:ml-[13rem] 2xl:mt-[2rem]'><span className='font-bold'>Protecting water resources</span> also involves preserving natural water systems such as wetlands, rivers, and lakes. These ecosystems are essential for filtering pollutants and providing habitats for a wide range of plant and animal species.</p>
 
-        <p className='xl:w-[540px] xl:font-light xl:text-[2.3rem] xl:mt-[2rem] 2xl:mr-[3rem] 2xl:w-[600px] 2xl:ml-[-4rem] 2xl:text-[1rem] '>Household hazardous waste should be disposed of appropriately, and chemicals <span className="font-bold xl:font-medium">shouldn't be dumped down the sink or into storm drains.</span></p>
+        <p className='xl:w-[540px] xl:font-light xl:text-[2.3rem] xl:mt-[2rem] 2xl:mr-[3rem] 2xl:w-[600px] 2xl:ml-[-4rem] 2xl:text-[1rem] '>Household hazardous waste should be disposed of appropriately, and chemicals <span className="font-bold xl:font-medium">shouldn&apos;t be dumped down the sink or into storm drains.</span></p>
+
         </div>
         <p className='xl:w-[400px] xl:mt-[2rem] xl:font-light xl:text-[2.3rem] 2xl:w-[550px]'><span className="font-bold xl:font-medium">All life depends on water</span>, which is a valuable resource that must be protected if the ecosystem is to be preserved. Making sure there is enough clean water available for people, animals, and plants to exist and grow involves conserving and protecting water resources.</p>
       </div>
